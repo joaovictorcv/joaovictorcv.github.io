@@ -1,0 +1,13 @@
+#box{
+    display: inline-block; /*Conseguimos fazer com que a caixa se adapte ao tamanho do texto, ainda utilizando o padding para continurar com o "respiro".*/
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0 black;
+    text-align: center;
+    padding: 42px 44px;
+    margin-top: 116px;
+    margin-left: 91px;
+}
+
+#box h1{
+    padding-bottom: 28px;
+}

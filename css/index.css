@@ -2,19 +2,8 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #218c74;
-    align-items: center;
     border-bottom: 10px solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-
-h1{
-    font-family: "Press Start 2P", sans-serif;
-    color: white;
-    text-shadow: 5px 5px 0px #000;
+    padding: 10px 20px;
 }
 
 nav{
@@ -38,52 +27,4 @@ a:before{
     width: 10px;
     height: 10px;
     margin-right: 10px;
-}
-    
-#button{
-    display: inline-block;
-    background-color: #3A4042;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0px #000 ;
-    margin-right: -0px;
-    transition: transform 250ms cubic-bezier(0.175, 0.885, 0.32, 2.1);
-}
-
-#button:hover{
-    background-color: #33d9b2;
-    transform: scale(1.1);
-}
-
-h2{ 
-    
-    font-family: "Press Start 2P", sans-serif;
-    color: #218c74;
-    font-size: 40px;
-    padding-top: 28px;
-    padding-left: 26px;
-    padding-right: 19px;
-    margin-left: 181px;
-    margin-top: 158px;
-    text-shadow: 4px 4px 0px #000;
-   
-}
-
-h3{
-    
-    font-family: "Press Start 2P", sans-serif;
-    color: #fff;
-    font-size: 30px;
-    margin-left: 131px;
-    margin-top: 28px;
-    text-shadow: 4px 4px 0px #000;
-}
-
-.box1{
-    box-sizing: border-box;
-    height: 200px;
-    width: 627px;
-    margin-left: 91px;
-    margin-top: 116px;
-    background-color: #3A4042;
-    box-shadow: 10px 10px 0px #000;
 }
