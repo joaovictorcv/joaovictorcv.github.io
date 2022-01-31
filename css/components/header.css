@@ -4,4 +4,9 @@
     background-color: #218c74;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
+    
+}
+
+.header img[alt]{
+    border: 2px solid white;
 }
