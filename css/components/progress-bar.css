@@ -5,6 +5,14 @@
     
 }
 
- .progress-bar::-webkit-progress-bar, .progress-bar::-moz-progress-bar/*.progress-bar::-moz-progress-bar (USAMOS PARA O FUNCIONAMENTO EM OUTROS NAVEGADORES)*/{ 
+ .progress-bar::-webkit-progress-bar{ 
+    background-color: white;
+}
+
+.progress-bar::-moz-progress-bar{ 
+    background-color: #3A4042;
+}
+
+.progress-bar::-webkit-progress-value {
     background-color: #3A4042;
 }
