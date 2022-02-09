@@ -6,6 +6,10 @@
     cursor: pointer;
 }
 
+.button-arrow .content{
+    display: none;
+}
+
 .button-arrow::before{
     content: '';
     display: block;
@@ -14,5 +18,9 @@
     width: 15px;
     border: 15px solid transparent;
     border-left: 28px solid black;
+    transform: translate(6px);
+}
 
+.button-arrow.-left::before{
+    transform: rotate(180deg) translate(6px);
 }
