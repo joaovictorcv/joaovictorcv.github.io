@@ -6,6 +6,13 @@
     cursor: pointer;
 }
 
-.button-arrow::after{
+.button-arrow::before{
     content: '';
+    display: block;
+    box-sizing: border-box;
+    height: 15px;
+    width: 15px;
+    border: 15px solid transparent;
+    border-left: 28px solid black;
+
 }
