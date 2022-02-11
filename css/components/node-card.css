@@ -1,11 +1,19 @@
 .node-card{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .node-card::before{
     content: '';
+    box-sizing: border-box;
+    position: absolute;
+    height: 0px;
+    width: 40px;
+    border: 2.5px dashed black;
+    transform: rotate(90deg) translateX(-62%);
+    bottom: 140px;
 }
 
 .node-card .title{
