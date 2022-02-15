@@ -19,6 +19,7 @@
 
 .main-carrossel::before{
     content: '';
+    box-sizing: border-box; /*Não deixando a line dashed vazar do box-model*/
     position: absolute;
     left: 0px;
     top: 38px;
@@ -39,4 +40,15 @@
 
 .main-carrossel .button-arrow.-right{
     right: 15px;
+}
+
+.main-carrossel .items{ 
+   width: 100%; 
+   overflow: hidden;
+}
+
+.main-carrossel .elements{
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(400px);
 }
