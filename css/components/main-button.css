@@ -15,3 +15,8 @@
     background-color: #33d9b2;
     transform: scale(1.1);
 }
+
+.main-button.-full{
+    background-color: #218c74;
+    width: 100%;
+}
