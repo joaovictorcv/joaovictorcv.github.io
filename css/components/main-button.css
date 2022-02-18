@@ -9,6 +9,7 @@
     font-family: "Fira Code" , Arial , Helvetica, sans-serif;
     text-decoration: none;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .main-button:hover{
@@ -19,4 +20,7 @@
 .main-button.-full{
     background-color: #218c74;
     width: 100%;
+}
+.main-button.-full:hover{
+    transform: scale(1.01);
 }
