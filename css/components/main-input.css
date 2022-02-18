@@ -7,3 +7,7 @@
     padding-left: 5px;  /*faz um respiro nas palavras digitadas pelo usuário*/
     padding-right: 5px;
 }
+
+.main-input.-textarea{
+    height: 320px;
+}
