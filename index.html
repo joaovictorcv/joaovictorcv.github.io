@@ -29,10 +29,9 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carrossel.css">
-    <link rel="stylesheet" href="css/components/main-footer.css">
-    <link rel="stylesheet" href="css/components/main-label.css">
-    <link rel="stylesheet" href="css/components/main-input.css">
-    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/wrapper-footer.css">
+    <link rel="stylesheet" href="css/components/main-contact.css">
+    <link rel="stylesheet" href="css/components/button-contact.css">
 
 </head>
 <body>
@@ -76,13 +75,13 @@
                             </progress>
                         </div>
             </article>
-            <article class="skill-tec">
+            <!-- <article class="skill-tec">
                 <img class="icon" src="img/logonode.png" alt="Logo do NodeJS em pixelart">
                     <div class="right">
                         <h3 class="title">NodeJS</h3>
                         <progress class="progress-bar" max="100" value="70">70%
                         </progress>
-                    </div>
+                    </div> -->
             </article>
             <article class="skill-tec">
                 <img class="icon" src="img/logocss.png" alt="Logo do CSS em pixelart">
@@ -92,13 +91,13 @@
                         </progress>
                     </div>
             </article>
-            <article class="skill-tec">
+            <!-- <article class="skill-tec">
                 <img class="icon" src="img/logotdd.png" alt="Logo do TDD em pixelart">
                     <div class="right">
                         <h3 class="title">TDD</h3>
                         <progress class="progress-bar" max="100" value="70">70%
                         </progress>
-                    </div>
+                    </div> -->
             </article>
             <article class="skill-tec">
                 <img class="icon" src="img/logojs.png" alt="Logo do JavaScript em pixelart">
@@ -109,29 +108,29 @@
                     </div>
             </article>
             <article class="skill-tec">
-                <img class="icon" src="img/logorest.png" alt="Logo do Rest API em pixelart">
+                <img class="icon" src="img/logogithub64.png" alt="Logo do GitHub">
                     <div class="right">
-                        <h3 class="title">Rest API</h3>
+                        <h3 class="title">GitHub</h3>
                         <progress class="progress-bar" max="100" value="70">70%
                         </progress>
                     </div>
-            </article>
+             </article>
             <article class="skill-tec">
-                <img class="icon" src="img/logoreact.png" alt="Logo do React em pixelart">
+                <img class="icon" src="img/logogit.png" alt="Logo do Git">
                     <div class="right">
-                        <h3 class="title">React</h3>
+                        <h3 class="title">Git</h3>
                         <progress class="progress-bar" max="100" value="70">70%
                         </progress>
                     </div>
             </article>
-            <article class="skill-tec"> <!--description list -->
-                <img class="icon" src="img/logoux.png" alt="Logo do UX em pixelart">
+            <!-- <article class="skill-tec"> description list -->
+                <!-- <img class="icon" src="img/logoux.png" alt="Logo do UX em pixelart">
                     <div class="right">
                         <h3 class="title">UX</h3>
                         <progress class="progress-bar" max="100" value="70">70%
                         </progress>
                     </div>
-            </article>
+            </article> -->
         </div>
     </section>
 
@@ -211,36 +210,57 @@
 
             </section>
 
-        <p class="main-description">Hoje, sou estudante de ADS (Análise e Desenvolvimento de Sistemas) na UNIP-SJRP e iniciando meus estudos em FronteEnd. Estou procurando uma oportunidade de trabalho para que eu possa evoluir e aprender cada vez mais. Gosto de fazer projetos, pois com eles surgem dúvidas que eu devo procurar soluções. Assim aprendendo coisas novas sempre. Estou aprendendo no momento HTML e CSS, onde esse portfólio foi totalmente programado, logo mais começarei meus estudos em JS.</p>
+        <p class="main-description">Hoje, sou estudante de ADS (Análise e Desenvolvimento de Sistemas) na UNIP-SJRP e iniciando meus estudos em FronteEnd. Estou procurando uma oportunidade de trabalho para que eu possa evoluir e aprender cada vez mais. Gosto de fazer projetos, pois com eles surgem dúvidas que eu devo procurar soluções. Assim aprendendo coisas novas sempre. Estou aprendendo no momento HTML e CSS, onde esse portfólio foi totalmente programado, Comecei recentemente meu estudos em JavaScript que foi programado o carrosel acima.</p>
  </section>
 
+    <section class="main-section -contatos">
+        <h2 class="main-title -second">Contatos</h2>
 
-<form class="main-form">
+            <div class="main-contact">
+                <form class="" action="">
+                    <label for="input-nome">Nome</label>
+                    <input class="borderInput" type="text" id="input-nome" required maxlength="25" minlength="2"> <!--maxlenght e o minlenght faz o que o formulario tenha um maximo e minimo de letras. -->
 
-    <legend class="main-title -second">Contatos</legend>
+                    <label for="input-email">Email</label>
+                    <input class="borderInput" type="email" id="input-email" required maxlength="50">
 
-    <label class="main-label" for="name">Nome</label>
-    <input class="main-input" id="name" type="text" required>
+                    <label for="textAreaMensagem">Mensagem</label>
+                    <textarea class="borderInput" name="textAreaMensagem" id="textAreaMensagem" required rows="10" cols="200" maxlength="350"></textarea>
 
-    <label class="main-label" for="email">Email</label>
-    <input class="main-input" id="email" type="email" required>
+                    <button class="button-contact">Enviar</button>
+                </form>
+            </div>
 
-    <label class="main-label" for="message">Mensagem</label>
-    <textarea class="main-input -textarea" id="message" required></textarea>
-    
-    <button class="main-button -full" type="submit">Enviar</button>
-</form>
 
- <footer class="main-footer">
-    <a class="action" href="https://twitter.com/twocuriosities2" target="_blank">
-        <img src="img/logotwitter.png" alt="Logo do Twitter em pixel art">
-    </a>
-    <a class="action" href="https://www.youtube.com/channel/UCFUgn-qwRKO-lfLZoVoLMdw" target="_blank">
-        <img src="img/logoyoutube.png" alt="Logo do Youtube em pixel art">
-    </a>
-    <a class="action" href="https://discord.com/" target="_blank">
-        <img src="img/logodiscord.png" alt="Logo do Discord em pixel art">
-    </a>
+ 
+ 
+ 
+ 
+ 
+ 
+    </section>
+
+ <footer>
+     <div class="wrapper-footer">
+         <a href="https://twitter.com/twocuriosities2" target="_blank">
+            <figure class="twitter">
+                <img src="img/logotwitter.png" alt="Logo do Twitter">
+            </figure>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCFUgn-qwRKO-lfLZoVoLMdw" target="_blank">
+            <figure class="youtube">
+                <img src="img/logoyoutube.png" alt="Logo do Youtube">
+            </figure>
+        </a>    
+
+        <a href="https://discord.com/" target="_blank">
+            <figure>
+                <img src="img/logodiscord.png" alt="Logo do Discord">
+            </figure>
+        </a>
+     </div>
+
 </footer>
 
  <script src="js/components/main-carrossel.js"></script>

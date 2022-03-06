@@ -9,18 +9,9 @@
     font-family: "Fira Code" , Arial , Helvetica, sans-serif;
     text-decoration: none;
     font-size: 20px;
-    cursor: pointer;
 }
 
 .main-button:hover{
     background-color: #33d9b2;
     transform: scale(1.1);
-}
-
-.main-button.-full{
-    background-color: #218c74;
-    width: 100%;
-}
-.main-button.-full:hover{
-    transform: scale(1.01);
 }
